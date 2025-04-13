@@ -237,7 +237,9 @@ text-align: center;
 
 color: #434455;
 }
-
+.banking-photo {
+    background-color: #fff;
+}
 .porfolio-list {
     
     display: flex;
