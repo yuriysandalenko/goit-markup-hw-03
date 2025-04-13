@@ -204,7 +204,6 @@ display: flex;
 .develop-list{
     max-width: width: calc((100% - 24px * 3) / 4);
     display: flex;
-    padding-bottom: 120px;
     gap: 24px;
 }
 .develop-photo {
