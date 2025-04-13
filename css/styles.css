@@ -166,9 +166,7 @@ display: flex;
 }
 
 .title-team {
-    padding-top: 120px;
-    padding-bottom: 72px;
-    margin: 0 auto;
+    margin-bottom: 72px;
     text-transform: capitalize;
     font-size: 36px;
     line-height: 1.11;
@@ -222,17 +220,14 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
-padding-bottom: 8px;
+margin-bottom: 8px;
 
 color: #2e2f42;
 }
 
 .container-bottom-photo {
    
-   padding-top: 32px;
-   padding-bottom: 32px; 
-   padding-right: 16px;
-   padding-left: 16px;
+padding: 32px 0;
 }
 
 .specialist-item {
@@ -250,21 +245,24 @@ color: #434455;
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    padding-bottom: 120px;
+    
 }
 
 .section-team {
-background-color: #F4F4FD
+background-color: #F4F4FD;
+padding: 120px 0;
 }
-.banking-list {
+.container-banking-list {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
         border-right: 1px solid #e7e9fc;
-        padding: 32px 0 32px 16px;
+        padding: 32px 16px;
 }
-
+.section-portfolio {
+    padding: 120px 0 120px 0;
+}
 .title-portfolio {
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     text-transform: capitalize;
     font-weight: 500;
     font-size: 20px;
@@ -281,19 +279,20 @@ background-color: #F4F4FD
 
 .page-footer {
     background-color: #2e2f42;
+   padding: 100px 0;
 }
 .footer-logo {
 display: inline-block;
-padding-top: 100px;
+
 margin-bottom: 16px;
 }
 .footer-logo .logo-part {
     color: #f4f4fd;
 }
 .footer-text {
-    display: blockgitt;
+    
 width: 264px;
-padding-bottom: 100px;
+
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
