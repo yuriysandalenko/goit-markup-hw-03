@@ -113,33 +113,30 @@ align-items: center;
 
 
 .main-section {
+    padding-top: 188px;
+        padding-bottom: 188px;
+        margin: 0 auto;
+    
     
     background-color: #2e2f42;
 }
 
 
 .main-info {
-    
-    width: 496px;
-    
-    padding-top: 188px;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 48px;
     margin: 0 auto;
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    padding-bottom: 48px;
 }
 
-.main-container {
-    padding-bottom: 188px;
-}
 
 .main-but {
-    display: flex;
+    display: block;
+    min-width: 169px;
     margin: 0 auto;
     cursor: pointer;
     border:none;
@@ -156,13 +153,16 @@ align-items: center;
 .main-but:focus {
 background-color: #404bbf;
 }
-
+.strategy-section {
+    
+        padding: 120px 0;
+       
+}
 .strategy-about {
-    display: flex;
+display: flex;
     max-width: 1128px;
-    padding: 120px 0;
     margin: 0 auto;
-    gap: 24px;
+        gap: 24px;
 }
 
 .title-team {
@@ -185,7 +185,7 @@ background-color: #404bbf;
 }
 
 .strategy-item-title {
-        padding-bottom: 8px;
+        margin-bottom: 8px;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
